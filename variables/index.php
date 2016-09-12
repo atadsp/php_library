@@ -3,7 +3,10 @@
 //Basic Variables
 $x = 55;
 $y = 983242;
+// use operations (+, -, /, *) when adding numbers.
 $z = $x + $y;
+// regular concatination just add the first number ontop of the second (IE $aa becomes 55983242)
+$aa = $x . $y;
 
 //works the same way as in js. just REMEBER YOUR SEMICOLON
 $stuff = 'What would YOU do?';
@@ -24,6 +27,7 @@ $things_stuff = $stuff . " " . $things;
 
 <body>
 <!-- all inbody php must be written with <?php ?> -->
+<p> <?php echo $aa ?></p>
 <p> <?php echo $z ?> </p>
 <p> <?php echo $stuff_things; ?> </p>
 <!-- Print is another way to push things to the DOM -->
